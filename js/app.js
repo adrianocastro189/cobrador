@@ -374,8 +374,8 @@ function renderForm() {
           <label for="f-dia">Dia de Pagamento</label>
           <input
             type="number" id="f-dia" name="diaPagamento"
-            placeholder="Ex: 5, 15, 25"
-            min="1" max="31"
+            placeholder="Ex: 15"
+            min="1" max="31" step="1"
             value="${editing ? editing.diaPagamento : ''}"
             inputmode="numeric" required>
         </div>
